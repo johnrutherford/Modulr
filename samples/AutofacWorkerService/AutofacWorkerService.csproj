@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-AutofacWorkerService-0BBA694E-600B-42CF-902B-E14410C10BEB</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Modulr.Hosting\Modulr.Hosting.csproj" />
+    <ProjectReference Include="..\Modulr.Samples.Common.Autofac\Modulr.Samples.Common.Autofac.csproj" />
+    <ProjectReference Include="..\Modulr.Samples.Common\Modulr.Samples.Common.csproj" />
+  </ItemGroup>
+</Project>
