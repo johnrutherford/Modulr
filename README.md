@@ -1,4 +1,4 @@
-# Modulr
+# Modulr ![.NET Core](https://github.com/johnrutherford/Modulr/workflows/Build/badge.svg)
 
 Modules for Microsoft.Extensions.DependencyInjection and Microsoft.Extensions.Hosting.
 
